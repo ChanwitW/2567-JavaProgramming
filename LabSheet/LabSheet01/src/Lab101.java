@@ -14,8 +14,11 @@ public class Lab101 {
 		
 		System.out.println("-------------------------------------");
 		float totalPrice = productUnit * productPrice ;
-		System.out.print("Total Price is : "+ totalPrice+" baht. ");
+		System.out.println("Total Price is : "+ totalPrice+" baht. ");
 		System.out.println("-------------------------------------");
+		
+		System.out.print("How many discount : ");
+		int
 
 	}
 

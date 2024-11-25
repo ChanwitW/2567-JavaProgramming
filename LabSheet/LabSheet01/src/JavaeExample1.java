@@ -27,10 +27,10 @@ public class JavaeExample1 {
 		System.out.println("Add vat 7% is "+ frm.format(totalVat) + " baht. ");
 		
 		//output using string format and printf
-		System.out.println("*****using printf and String.format*****");
-	    System.out.printf("Product name is : %s", productName);
-		System.out.printf("\nTotal price is %,.2f",totalPriceProduct);
-		System.out.printf("\nAdd vat 7% is %s baht.",String.format("%,.2f",totalVat));
+		//System.out.println("*****using printf and String.format*****");
+	    //System.out.printf("Product name is : %s", productName);
+		//ystem.out.printf("\nTotal price is %,.2f",totalPriceProduct);
+		//System.out.printf("\nAdd vat 7% is %s baht.",String.format("%,.2f",totalVat));
 		
 		scan.close();
 	}

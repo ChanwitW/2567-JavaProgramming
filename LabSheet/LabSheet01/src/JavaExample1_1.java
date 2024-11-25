@@ -11,7 +11,7 @@ public class JavaExample1_1 {
 		System.out.print("Enter lsat name(using nextline) : ");
 		String lastname = input.nextLine();
 		
-		System.out.println("\n----Output----");
+		System.out.println("\n-----Output-----");
 		System.out.println("First name : "+ firstname);
 		System.out.println("Last  name : "+ lastname);
 		
