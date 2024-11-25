@@ -3,7 +3,7 @@ public class JavaExample2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String productName = JOptionPane.showInputDialog("Input product name : ");
+		String productName = JOptionPane.showInputDialog("Input Product name : ");
 		String productUnitStr = JOptionPane.showInputDialog("Input Product Unit : ");
 		int productUnit = Integer.parseInt(productUnitStr);
 		

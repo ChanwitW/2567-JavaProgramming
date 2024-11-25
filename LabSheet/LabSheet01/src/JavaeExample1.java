@@ -8,7 +8,7 @@ public class JavaeExample1 {
 		//defind object for manage format number by decimal format
 		DecimalFormat frm = new DecimalFormat ("#,###.00");
 		
-		System.out.print("Input product name : ");
+		System.out.print("Input Product name : ");
 		String productName = scan.nextLine();
 		
 		System.out.print("Input product unit : ");

@@ -17,7 +17,7 @@ public class Lab101 {
 		System.out.println("Total Price is : "+ totalPrice+" baht. ");
 		System.out.println("-------------------------------------");
 		
-		System.out.print("How many discount : ");
+		System.out.print("How many Discount : ");
 		int Vat = scan.nextInt(); 
 
 	}
