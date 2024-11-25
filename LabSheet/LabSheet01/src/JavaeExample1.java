@@ -18,7 +18,7 @@ public class JavaeExample1 {
 		float productPrice = scan.nextFloat();
 		
 		System.out.println();
-		System.out.println("Product name is : "+ productName);
+		System.out.println("Product Name is : "+ productName);
 		
 		float totalPriceProduct = productUnit * productPrice;
 		System.out.println("Total Price is "+ frm.format(totalPriceProduct) + " baht. ");

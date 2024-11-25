@@ -7,7 +7,7 @@ public class JavaExample2 {
 		String productUnitStr = JOptionPane.showInputDialog("Input Product Unit : ");
 		int productUnit = Integer.parseInt(productUnitStr);
 		
-		double productPrice = Double.parseDouble(JOptionPane.showInputDialog("Input Price per unit"));
+		double productPrice = Double.parseDouble(JOptionPane.showInputDialog("Input Price Per unit"));
 		
 		double totalPrice = productPrice * productUnit ;
 		double totalVat = productPrice + (totalPrice * 7/100) ;
@@ -17,7 +17,7 @@ public class JavaExample2 {
 		String frmtotalVat = String.format("%,.2f", totalVat);
 		
 		//display result
-		JOptionPane.showMessageDialog(null , "Total price is "+frmtotalPrice+ " baht. "
+		JOptionPane.showMessageDialog(null , "Total Price is "+frmtotalPrice+ " baht. "
 				+ "\nAdd VAT 7% is "+frmtotalVat+ " baht. ");
 
 	}

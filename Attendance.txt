@@ -1,4 +1,9 @@
 StudentID   : 2413110152
 StudentName : Chanwit Keawsakul
-Date        : 25 -11-2567
+<<<<<<< HEAD
+Date        : 25-11-2567
 Topic       : Display, Variable and Input
+=======
+Date        : 25-11-2567
+Topic       : Display, Variable and Input
+>>>>>>> e3c50a9afb02fe92b00269a89823876dab237fb2

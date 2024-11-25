@@ -18,7 +18,7 @@ public class Lab101 {
 		System.out.println("-------------------------------------");
 		
 		System.out.print("How many discount : ");
-		int
+		int Vat = scan.nextInt(); 
 
 	}
 

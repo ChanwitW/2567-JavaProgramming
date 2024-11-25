@@ -8,7 +8,7 @@ public class JavaExample1_1 {
 		String firstname = input.next();
 		input.nextLine();
 		
-		System.out.print("Enter lsat name(using nextline) : ");
+		System.out.print("Enter Lsat name(using nextline) : ");
 		String lastname = input.nextLine();
 		
 		System.out.println("\n-----Output-----");
