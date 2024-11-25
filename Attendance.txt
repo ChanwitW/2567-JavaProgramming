@@ -1,4 +1,4 @@
 StudentID   : 2413110152
 StudentName : Chanwit Keawsakul
 Date        : 25-11-2567
-Topic       : work with github
+Topic       : Display, Variable and Input
