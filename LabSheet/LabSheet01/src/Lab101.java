@@ -23,10 +23,9 @@ public class Lab101 {
 		
 		float discount = totalPrice*Vat/100;
 		float paid = totalPrice-discount;
-		System.out.println("Discount from "+Vat+ "%" +" "+discount+"baht.");
-		System.out.println("Amount to be paid "+""+""+paid+"baht.");
+		System.out.println("Discount from "+Vat+ "%" +"\t"+discount+" baht.");
+		System.out.println("Amount to be paid "+"\t"+paid+" baht.");
 		
 
 	}
-
 }
