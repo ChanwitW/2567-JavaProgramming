@@ -1,4 +1,4 @@
 StudentID   : 2413110152
 StudentName : Chanwit Keawsakul
-Date        : 02-12-2567
-Topic       : Control Statements and Confirm Dialog box
+Date        : 09-12-2567
+Topic       : String Method
