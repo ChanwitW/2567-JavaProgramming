@@ -36,6 +36,7 @@ public class ScurePasswordChecker {
 					hasDigit = true;
 				}
 			}
+			
 			if (!hasUpperCase) {
 				error += "- Password must contain at least one uppercase letter(A-Z).\n";
 			}

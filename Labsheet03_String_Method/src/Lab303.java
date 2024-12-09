@@ -1,13 +1,14 @@
-import java.util.*;
 
-import javax.swing.JOptionPane;
-public class Lab301 {
+import java.util.*;
+public class Lab303 {
 
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 		int count = 0;
 		String sentence = "";
 		
-		JOptionPane.showInputDialog("Input a sentence");
+		System.out.print("Input a sentence : ");
+		sentence = scan.nextLine();
 		
 		while (true) {
 			
@@ -31,6 +32,7 @@ public class Lab301 {
 		System.out.print("This sentence has " + count + " " + "spacebar.");
 
 		
+		scan.close();
 	}
 
 }
