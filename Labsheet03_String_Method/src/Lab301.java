@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 import javax.swing.JOptionPane;
 public class Lab301 {
@@ -16,7 +16,6 @@ public class Lab301 {
 			}
 			else {
 				System.out.print("Input a sentence, again : ");
-				sentence = scan.nextLine();
 			}
 
 		}
