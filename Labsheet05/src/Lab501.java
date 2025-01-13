@@ -18,7 +18,7 @@ public class Lab501 {
 		}// end of for
 		if (validItem) {
 			JOptionPane.showMessageDialog(null, "Item "+ itemOrder +" is "+ itemPrice);
-			System.out.print("Item "+ itemOrder +" is "+ itemPrice);
+			System.out.print("Item "+ itemOrder +" Is "+ itemPrice);
 		}
 		else {
 			JOptionPane.showMessageDialog(null,"Invald Item");

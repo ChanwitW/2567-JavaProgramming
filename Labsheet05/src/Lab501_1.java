@@ -13,7 +13,7 @@ public class Lab501_1 {
 		}// end of for
 		
 		if (deptWasFound) {
-			JOptionPane.showMessageDialog(null, dept + " was found in the list");
+			JOptionPane.showMessageDialog(null, dept + " Was found in the list");
 		}
 		else {
 			JOptionPane.showMessageDialog(null, dept + " was not found in the list");
