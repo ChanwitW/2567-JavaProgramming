@@ -1,4 +1,4 @@
 StudentID   : 2413110152
 StudentName : Chanwit Keawsakul
-Date        : 23-12-2567
-Topic       : Array and Array Method
+Date        : 1-13-2568
+Topic       : Class and Object
