@@ -1,4 +1,4 @@
 StudentID   : 2413110152
 StudentName : Chanwit Keawsakul
-Date        : 1-13-2568
-Topic       : Class and Object
+Date        : 1-20-2568
+Topic       : Encapsulation Concept and Array Object
