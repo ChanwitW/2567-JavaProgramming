@@ -6,7 +6,7 @@ public class Rectangle {
 	private float length;
 	private float width;
 	
-	//defualt costructor
+	//default costructor
 	Rectangle () {
 		length = 1.0f;
 		width = 1.0f;
@@ -16,7 +16,7 @@ public class Rectangle {
 	  private float width = 1.0f;
 	 */
 	
-	//paeameter constructor
+	//parameter constructor
 	Rectangle(float lenght , float width) {
 		this.length = lenght;
 		this.width= width;
