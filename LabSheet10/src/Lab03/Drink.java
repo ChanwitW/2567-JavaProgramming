@@ -9,8 +9,6 @@ public class Drink {
 		this.size =size;
 	}
 	
-	public Drink() {}
-	
 	public String getTypeName() {
 		switch (type) {
 		case 1:
@@ -34,34 +32,30 @@ public class Drink {
 	}
 	
 	public String getSizeName() {
-		if (size == 'S'&& size == 's') {
-			return "Small";
-		}
-		else if (size == 'M'&& size == 'm') {
-			return "Medium";
-		}
-		else if (size == 'L'&& size == 'l') {
-			return "Large";
-		}
-		else {
-			return null;
-		}
-	}
-	
-	public int getSizePrice() {
-		if (size == 'S'&& size == 's') {
-			return 15;
-		}
-		else if (size == 'M'&& size == 'm') {
-			return 20;
-		}
-		else if (size == 'L'&& size == 'l') {
-			return 25;
-		}
-		else {
-			return 0;
-		}
-	}
+        switch (Character.toUpperCase(this.size)) {
+            case 'S': 
+            	return "Small";
+            case 'M': 
+            	return "Medium";
+            case 'L': 
+            	return "Large";
+            default: 
+            	return "Unknown";
+        }
+    }
+
+    public int getSizePrice() {
+        switch (Character.toUpperCase(this.size)) {
+            case 'S': 
+            	return 15;
+            case 'M': 
+            	return 20;
+            case 'L': 
+            	return 25;
+            default:
+            	return 0;
+        }
+    }
 	
 	public int getTotalPrice() {
 		return getTypePrice() + getSizePrice();
